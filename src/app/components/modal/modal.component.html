@@ -1,0 +1,12 @@
+<div *ngIf="direction == 'right'">
+    <div class="modal" [@right] *ngIf="visibleRight">
+        <span>Hi, I'm toast</span>
+        <div class="close" (click)="close()">Close me</div>
+    </div>
+</div>
+<div *ngIf="direction == 'left'">
+    <div class="modal" [@left] *ngIf="visibleRight">
+        <span>Hi, I'm toast</span>
+        <div class="close" (click)="close()">Close me</div>
+    </div>
+</div>

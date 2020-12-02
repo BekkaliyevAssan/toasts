@@ -1,0 +1,16 @@
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.buttons {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+}
